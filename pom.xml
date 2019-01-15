@@ -43,10 +43,10 @@
   <artifactId>wildfly-maven-plugin</artifactId>
   <version>1.2.2.Final</version>
   <configuration>
-        <hostname>${wildfly-hostname}</hostname>
-        <port>${wildfly-port}</port>
-        <username>${wildfly-username}</username>
-        <password>${wildfly-password}</password>
+        <hostname>127.0.0.1</hostname>
+        <port>9990</port>
+        <username>sa20015179</username>
+        <password>sa20015179</password>
 		 <webXml>C:\Users\sa20015179\Desktop\sample_war\new\webapp\src\main\webapp\WEB-INF\web.xml</webXml>  
   </configuration>
   </plugin>
