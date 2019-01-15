@@ -47,7 +47,7 @@
         <port>${wildfly-port}</port>
         <username>${wildfly-username}</username>
         <password>${wildfly-password}</password>
-		 <webXml>C:\Users\sa20015179\Desktop\wildfly1\src\main\webapp\WEB-INF\web.xml</webXml>  
+		 <webXml>C:\Users\sa20015179\Desktop\sample_war\new\webapp\src\main\webapp\WEB-INF\web.xml</webXml>  
   </configuration>
   </plugin>
 
