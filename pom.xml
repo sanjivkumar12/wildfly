@@ -21,6 +21,7 @@
 <finalName>WebApp</finalName>
   <pluginManagement>
   <plugins>
+  <!--  
   <plugin>
      <groupId>org.wildfly.plugins</groupId>
      <artifactId>wildfly-maven-plugin</artifactId>
@@ -33,6 +34,28 @@
 	<webXml>C:\Users\sa20015179\Desktop\wildfly1\wildfly\src\main\webapp\WEB-INF\web.xml</webXml>  
   </configuration>
   </plugin>
+  -->
+  <plugin>
+                <groupId>org.wildfly.plugins</groupId>
+                <artifactId>wildfly-maven-plugin</artifactId>
+                <version>1.0.0.Final</version>
+                <configuration>
+                    <hostname>${wildfly-hostname}</hostname>
+                    <port>${wildfly-port}</port>
+                    <username>${wildfly-username}</username>
+                    <password>${wildfly-password}</password>
+                </configuration>
+                <executions>
+                    <execution>
+<!--                         <phase>package</phase> -->
+<!--                         <goals> -->
+<!--                             <goal>deploy</goal> -->
+<!--                         </goals> -->
+                    </execution>
+                </executions>
+            </plugin>
+			
+			
   </plugins>
   </pluginManagement>
   </build>
